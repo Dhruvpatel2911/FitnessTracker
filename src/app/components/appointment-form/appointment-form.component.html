@@ -1,0 +1,211 @@
+<div class="container my-4">
+  <form class="row g-3" (ngSubmit)="onSubmit()">
+    <div class="col-md-6">
+      <label for="name" class="form-label">Name</label>
+      <input
+        [(ngModel)]="name"
+        name="name"
+        type="text"
+        class="form-control"
+        id="name"
+      />
+    </div>
+    <div class="col-md-6">
+      <label for="age" class="form-label">Age</label>
+      <input
+        [(ngModel)]="age"
+        name="age"
+        type="number"
+        class="form-control"
+        id="age"
+      />
+    </div>
+    <div class="col-md-6">
+      <label for="email" class="form-label">Email</label>
+      <input
+        [(ngModel)]="email"
+        name="email"
+        type="email"
+        class="form-control"
+        id="email"
+      />
+    </div>
+    <div class="col-md-6">
+      <label for="mobile" class="form-label">Mobile</label>
+      <input
+        [(ngModel)]="mobile"
+        name="mobile"
+        type="text"
+        class="form-control"
+        id="mobile"
+      />
+    </div>
+    <div class="col-12">
+      <label for="address" class="form-label">Address</label>
+      <input
+        [(ngModel)]="address"
+        name="address"
+        type="text"
+        class="form-control"
+        id="address"
+      />
+    </div>
+    <div class="col-md-6">
+      <label for="city" class="form-label">City</label>
+      <input
+        [(ngModel)]="city"
+        name="city"
+        type="text"
+        class="form-control"
+        id="city"
+      />
+    </div>
+    <div class="col-md-6">
+      <label for="state" class="form-label">State</label>
+      <input
+        [(ngModel)]="state"
+        name="state"
+        type="text"
+        class="form-control"
+        id="state"
+      />
+    </div>
+    <div class="col-md-6">
+      <label for="country" class="form-label">Country</label>
+      <input
+        [(ngModel)]="country"
+        name="country"
+        type="text"
+        class="form-control"
+        id="country"
+      />
+    </div>
+    <div class="col-md-6">
+      <label for="pincode" class="form-label">Pincode</label>
+      <input
+        [(ngModel)]="pincode"
+        name="pincode"
+        type="text"
+        class="form-control"
+        id="pincode"
+      />
+    </div>
+    <div class="row col-12 my-2 mt-4">
+      <p>Trainer Preference</p>
+      <div class="form-check col-4">
+        <input
+          [(ngModel)]="trainerPreference"
+          class="form-check-input"
+          type="radio"
+          name="trainerPreference"
+          id="male"
+          value="male"
+        />
+        <label class="form-check-label" for="male"> Male </label>
+      </div>
+      <div class="form-check col-4">
+        <input
+          [(ngModel)]="trainerPreference"
+          class="form-check-input"
+          type="radio"
+          name="trainerPreference"
+          id="female"
+          value="female"
+        />
+        <label class="form-check-label" for="female"> Female </label>
+      </div>
+      <div class="form-check col-4">
+        <input
+          [(ngModel)]="trainerPreference"
+          class="form-check-input"
+          type="radio"
+          name="trainerPreference"
+          id="none"
+          value="none"
+        />
+        <label class="form-check-label" for="none"> None </label>
+      </div>
+    </div>
+    <div class="row col-12 my-2 mt-4">
+      <p>Do you want Physiotherapist ?</p>
+      <div class="form-check col-6">
+        <input
+          [(ngModel)]="physiotherapist"
+          class="form-check-input"
+          type="radio"
+          name="physiotherapist"
+          id="physiomale"
+          value="Yes"
+        />
+        <label class="form-check-label" for="physiomale"> Yes </label>
+      </div>
+      <div class="form-check col-6">
+        <input
+          [(ngModel)]="physiotherapist"
+          class="form-check-input"
+          type="radio"
+          name="physiotherapist"
+          id="physiofemale"
+          value="No"
+        />
+        <label class="form-check-label" for="physiofemale"> No </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <p>Select Package</p>
+      <div class="form-check">
+        <input
+          [(ngModel)]="package"
+          class="form-check-input"
+          type="radio"
+          name="package"
+          id="single"
+          value="1"
+        />
+        <label class="form-check-label" for="single">
+          1 Time Appointment (Rs 500)
+        </label>
+      </div>
+      <div class="form-check">
+        <input
+          [(ngModel)]="package"
+          class="form-check-input"
+          type="radio"
+          name="package"
+          id="fourdays"
+          value="4"
+        />
+        <label class="form-check-label" for="fourdays">
+          4 sessions per week (Rs 400)
+        </label>
+      </div>
+      <div class="form-check">
+        <input
+          [(ngModel)]="package"
+          class="form-check-input"
+          type="radio"
+          name="package"
+          id="fivedays"
+          value="none"
+        />
+        <label class="form-check-label" for="fivedays">
+          5 sessions per week (Rs 300)
+        </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <label for="week" class="form-label">Weeks</label>
+      <input
+        [(ngModel)]="weeks"
+        name="weeks"
+        type="number"
+        class="form-control"
+        id="week"
+      />
+    </div>
+
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Book Appointment</button>
+    </div>
+  </form>
+</div>

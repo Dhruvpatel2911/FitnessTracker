@@ -1,0 +1,45 @@
+<div class="my-4">
+  <form class="row g-3" (ngSubmit)="onSubmit()">
+    <div class="col-md-6 mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input
+        [(ngModel)]="name"
+        type="text"
+        name="name"
+        class="form-control"
+        id="name"
+      />
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input
+        [(ngModel)]="email"
+        type="email"
+        name="email"
+        class="form-control"
+        id="email"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="phone" class="form-label">Phone</label>
+      <input
+        [(ngModel)]="phone"
+        type="text"
+        name="phone"
+        class="form-control"
+        id="phone"
+      />
+    </div>
+    <div class="col-12 mb-3">
+      <label for="query" class="form-label">Any Query</label>
+      <textarea
+        [(ngModel)]="query"
+        name="query"
+        class="form-control"
+        id="query"
+        rows="3"
+      ></textarea>
+    </div>
+    <button type="button" class="btn btn-outline-primary">Submit</button>
+  </form>
+</div>

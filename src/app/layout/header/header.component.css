@@ -1,0 +1,41 @@
+/* Style for the dropdown button */
+.dropdown .btn {
+    background-color: #f6f9fc; /* Change the background color */
+    color: #171515; /* Change the text color */
+    border: none; /* Remove border */
+    margin-top: 3px;
+  }
+  
+  /* Style for the dropdown button on hover */
+  .dropdown .btn:hover {
+    background-color: #f2f5f9; /* Change the background color on hover */
+  }
+  
+  /* Style for the dropdown menu items */
+  .dropdown-menu .dropdown-item {
+    color: #000000; /* Change the text color */
+  }
+  
+  /* Style for the dropdown menu items on hover */
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #f8f9fa; /* Change the background color on hover */
+    color: #000000; /* Change the text color on hover */
+  }
+  
+  /* Style for the dropdown menu container */
+  .dropdown-menu {
+    background-color: #ffffff; /* Change the background color of the dropdown menu */
+    border: 1px solid #ced4da; /* Add a border around the dropdown menu */
+  }
+   .userdetail{
+    padding-top: 17px;
+    font-weight: lighter bold ;
+    margin-inline-start: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px 6px rgb(181, 178, 178);
+    font-size: 20px;
+    
+  }
+
+  
+ 

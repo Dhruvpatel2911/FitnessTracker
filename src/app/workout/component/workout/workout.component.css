@@ -1,0 +1,45 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f0f0f0;
+}
+.container{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(61, 122, 183);
+    margin-top: 10px;
+    background-color: rgb(185, 202, 218);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.workout-plan {
+	width: 80%;
+	margin: 0 auto;
+    margin-top: 30px;
+	padding: 2rem;
+	background-color: hsl(0, 43%, 99%);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3, h4 {
+	margin: 0 0 0.5rem 0;
+}
+
+p {
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	margin: 0.5rem 0;
+}

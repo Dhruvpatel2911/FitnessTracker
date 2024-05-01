@@ -1,0 +1,37 @@
+.mylinks {
+  font-size: 20px;
+  color: whitesmoke;
+}
+.link-span {
+  color: rgb(88, 88, 255);
+}
+
+.footer {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgb(49, 49, 49);
+  padding-top: 50px;
+  
+}
+
+.footer-links {
+  text-align: center;
+  color: white;
+}
+.footer-links p a {
+  color: white;
+  text-decoration: none;
+}
+.footer-links p a:hover {
+  color: rgb(88, 88, 255);
+}
+.footer-contact {
+  text-align: center;
+  color: white;
+}
+.footer-end {
+  text-align: center;
+  color: white;
+}
